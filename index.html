@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deal car</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -24,25 +26,20 @@ else{
     alert('sorry not allowed to rent car')
 }
 
-var n = prompt('how many pic you want');
-for(var i = 1 ; i<=n ; i++){
-    document.write ('<img src= "https://pngimage.net/wp-content/uploads/2018/06/png-voiture-4.png">')
-}
-
-
 
 
 </script>
   <header>
 
+
   <img src ="https://image.shutterstock.com/z/stock-vector-vector-logo-design-of-car-dealer-technology-business-deal-marketing-and-auto-shop-service-and-1027827613.jpg" 
         alt="our logo" style="height:150px; width:150px"/>
   </header>
-  <nav>
-      <ul>
-          <li><a href="https://otator.github.io/car_website/index">Home</a></li>
-          <li><a href="https://alialjeatawy.github.io/rent-car/index">Rent car</a></li>
-          <li><a href="https://mohammed-khamees.github.io/html-only/index">Buy car</a></li>
+  <nav id="color1">
+      <ul> 
+          <li class="med"><a href="https://otator.github.io/car_website/index" id="color1">Home</a></li>
+          <li class="med"><a href="https://alialjeatawy.github.io/rent-car/index" id="color1">Rent car</a></li>
+          <li class="med"><a href="https://mohammed-khamees.github.io/html-only/index" id="color1">Buy car</a></li>
       </ul>
   </nav> 
   <hr/>
@@ -55,15 +52,29 @@ for(var i = 1 ; i<=n ; i++){
       </ul>
   </nav>
   <hr/>
+  
+  <script>
+  var n = prompt('how many pic you want');
+    for(var i = 1 ; i<=n ; i++){
+        document.write ('<img src= "https://pngimage.net/wp-content/uploads/2018/06/png-voiture-4.png">')
+    }
+    </script>
+  
+  
+  
   <footer>
     <h5>Contact us</h5>
-          <ul>
-              <li>call us : 078424533656</li>
-              <li>Email: des.ali94@gmare.com</li>
+          <ul id="color2">
+              <li class="med2">call us : 078424533656</li>
+              <li class="med2">Email: des.ali94@gmare.com</li>
               
       
       
           </ul>
+ 
+ 
+ 
+ 
   </footer>
 </body>
 </html>
